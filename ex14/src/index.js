@@ -22,8 +22,7 @@ function myForLoop2() {
   return evenInverseNumbers;
 }
 
-console.log(myForLoop1());
-console.log(myForLoop2());
+console.log(myForLoop1() + ", " + myForLoop2());
 // Only change code above this line
 module.exports = {
   myForLoop1,
