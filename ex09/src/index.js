@@ -2,12 +2,11 @@
 function functionElse(num) {
   var result = "";
   if (num <= 5) {
-    result += "5 or smaller";
-    return result;
+    result = "5 or smaller";
   } else {
-    result += "Bigger than 5";
-    return result;
+    result = "Bigger than 5";
   }
+  return result;
 }
 
 console.log(functionElse(4));
